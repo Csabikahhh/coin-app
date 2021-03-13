@@ -20,6 +20,9 @@ export default function Home(props) {
       .format(number);
 
   return (
+
+    <div class="container">
+      <div class="row justify-content-md-center">
     <div className={styles.container}>
       <Head>
         <title>Coinmarketcap clone</title>
@@ -63,6 +66,8 @@ export default function Home(props) {
         </tbody>
       </table>
 
+    </div>
+    </div>
     </div>
   )
 }
